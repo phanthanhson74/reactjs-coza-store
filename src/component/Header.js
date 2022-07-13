@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Header() {
     return (
         <React.Fragment>
@@ -35,7 +36,7 @@ export default function Header() {
                         <nav className="limiter-menu-desktop container">
 
                             <a href="#" className="logo">
-                                <img src="asset/images/icons/logo-01.png" alt="IMG-LOGO" />
+                                <img src="../asset/images/icons/logo-01.png" alt="IMG-LOGO" />
                             </a>
 
                             <div className="menu-desktop">
@@ -43,9 +44,9 @@ export default function Header() {
                                     <li className="active-menu">
                                         <a href="index.html">Home</a>
                                         <ul className="sub-menu">
-                                            <li><a href="index.html">Homepage 1</a></li>
-                                            <li><a href="home-02.html">Homepage 2</a></li>
-                                            <li><a href="home-03.html">Homepage 3</a></li>
+                                            <li><a href="/">Homepage 1</a></li>
+                                            <li><a href="homepage2">Homepage 2</a></li>
+                                            <li><a href="homepage3">Homepage 3</a></li>
                                         </ul>
                                     </li>
 
@@ -69,7 +70,9 @@ export default function Header() {
                                         <a href="contact.html">Contact</a>
                                     </li>
                                 </ul>
+                                
                             </div>
+                            
 
                             <div className="wrap-icon-header flex-w flex-r-m">
                                 <div className="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
@@ -90,7 +93,7 @@ export default function Header() {
 
                 <div className="wrap-header-mobile">
                     <div className="logo-mobile">
-                        <a href="index.html"><img src="asset/images/icons/logo-01.png" alt="IMG-LOGO" /></a>
+                        <a href="index.html"><img src="../asset/images/icons/logo-01.png" alt="IMG-LOGO" /></a>
                     </div>
 
                     <div className="wrap-icon-header flex-w flex-r-m m-r-15">
@@ -182,7 +185,7 @@ export default function Header() {
                 <div className="modal-search-header flex-c-m trans-04 js-hide-modal-search">
                     <div className="container-search-header">
                         <button className="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-                            <img src="asset/images/icons/icon-close2.png" alt="CLOSE" />
+                            <img src="../asset/images/icons/icon-close2.png" alt="CLOSE" />
                         </button>
 
                         <form className="wrap-search-header flex-w p-l-15">
