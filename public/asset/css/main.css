@@ -297,6 +297,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .header-v4 .wrap-menu-desktop {
   background-color: #fff;
+  top: 0px;
 }
 
 
@@ -915,7 +916,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   top: 0;
   right: 0;
   background-color: rgba(0,0,0,0.0);
-  visibility: hidden;
   
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -930,7 +930,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   max-width: calc(100% - 30px);
   height: 100vh;
   top: 0;
-  right: -400px;
   background-color: #fff;
   
   -webkit-transition: all 0.4s;

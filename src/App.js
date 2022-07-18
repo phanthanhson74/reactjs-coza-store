@@ -5,13 +5,13 @@ import Home from './pages/Home';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Features from './pages/Features';
-import Home2 from './pages/Home2'
+import Blogs from './pages/Blogs';
 
 
 function App() {
   return (
     <div className="App">
-      <Features />
+      <Blogs />
     </div>
   );
 }
