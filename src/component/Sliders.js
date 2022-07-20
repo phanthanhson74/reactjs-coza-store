@@ -21,7 +21,7 @@ function Sliders() {
             <div className="wrap-slick1">
                 <div className='slick'>
                     <Slider {...settings}>
-                        <div className="item-slick1" style={{ backgroundImage: `url(${background1})` }}>
+                        <div className="item-slick1" style={{ backgroundImage: `url(${background1})`}}>
                             <div className="container h-full">
                                 <div className="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                                     <div className="layer-slick1 animated " data-appear="fadeInDown" data-delay="0">

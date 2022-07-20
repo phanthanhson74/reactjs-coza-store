@@ -1,10 +1,14 @@
 import React from 'react'
-import Header from '../component/About/Header'
+import ContentAbout from '../component/About/ContentAbout'
+import TitleAbout from '../component/About/TitleAbout'
+
+
 
 function About() {
   return (
     <div>
-        <Header />
+       <TitleAbout />
+       <ContentAbout />
     </div>
   )
 }

@@ -33,7 +33,7 @@ function ShoppingCart() {
                                                     <i className="fs-16 zmdi zmdi-minus"></i>
                                                 </div>
 
-                                                <input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="1" />
+                                                <input className="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="1" />
 
                                                 <div className="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
                                                     <i className="fs-16 zmdi zmdi-plus"></i>
@@ -57,7 +57,7 @@ function ShoppingCart() {
                                                     <i className="fs-16 zmdi zmdi-minus"></i>
                                                 </div>
 
-                                                <input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product2" value="1" />
+                                                <input className="mtext-104 cl3 txt-center num-product" type="number" name="num-product2" value="1" />
 
                                                 <div className="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
                                                     <i className="fs-16 zmdi zmdi-plus"></i>
@@ -71,7 +71,7 @@ function ShoppingCart() {
 
                             <div className="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
                                 <div className="flex-w flex-m m-r-20 m-tb-5">
-                                    <input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeHolder="Coupon Code" />
+                                    <input className="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code" />
 
                                     <div className="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
                                         Apply coupon
@@ -123,7 +123,7 @@ function ShoppingCart() {
                                         </span>
 
                                         <div className="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
-                                            <select class="js-select2" name="time">
+                                            <select className="js-select2" name="time">
                                                 <option>Select a country...</option>
                                                 <option>USA</option>
                                                 <option>UK</option>
@@ -132,11 +132,11 @@ function ShoppingCart() {
                                         </div>
 
                                         <div className="bor8 bg0 m-b-12">
-                                            <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeHolder="State /  country" />
+                                            <input className="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="State /  country" />
                                         </div>
 
                                         <div className="bor8 bg0 m-b-22">
-                                            <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="postcode" placeHolder="Postcode / Zip" />
+                                            <input className="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="postcode" placeholder="Postcode / Zip" />
                                         </div>
 
                                         <div className="flex-w">

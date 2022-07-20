@@ -31,7 +31,7 @@ function ContentPage() {
                                     </h4>
 
                                     <p className="stext-117 cl6">
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                        className aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                                     </p>
 
                                     <div className="flex-w flex-sb-m p-t-18">
@@ -84,7 +84,7 @@ function ContentPage() {
                                     </h4>
 
                                     <p className="stext-117 cl6">
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                        className aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                                     </p>
 
                                     <div className="flex-w flex-sb-m p-t-18">
@@ -137,7 +137,7 @@ function ContentPage() {
                                     </h4>
 
                                     <p className="stext-117 cl6">
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
+                                        className aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
                                     </p>
 
                                     <div className="flex-w flex-sb-m p-t-18">
@@ -182,7 +182,7 @@ function ContentPage() {
                     <div className="col-md-4 col-lg-3 p-b-80">
                         <div className="side-menu">
                             <div className="bor17 of-hidden pos-relative">
-                                <input class="stext-103 cl2 plh4 size-116 p-l-28 p-r-55" type="text" name="search" placeHolder="Search"/>
+                                <input className="stext-103 cl2 plh4 size-116 p-l-28 p-r-55" type="text" name="search" placeholder="Search"/>
 
                                     <button className="flex-c-m size-122 ab-t-r fs-18 cl4 hov-cl1 trans-04">
                                         <i className="zmdi zmdi-search"></i>

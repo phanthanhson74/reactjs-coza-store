@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 export default function Header() {
@@ -6,68 +7,43 @@ export default function Header() {
         <React.Fragment>
             <header>
                 <div className="container-menu-desktop">
-                    <div className="top-bar">
-                        <div className="content-topbar flex-sb-m h-full container">
-                            <div className="left-top-bar">
-                                Free shipping for standard order over $100
-                            </div>
-
-                            <div className="right-top-bar flex-w h-full">
-                                <a href="#" className="flex-c-m trans-04 p-lr-25">
-                                    Help & FAQs
-                                </a>
-
-                                <a href="#" className="flex-c-m trans-04 p-lr-25">
-                                    My Account
-                                </a>
-
-                                <a href="#" className="flex-c-m trans-04 p-lr-25">
-                                    EN
-                                </a>
-
-                                <a href="#" className="flex-c-m trans-04 p-lr-25">
-                                    USD
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                     <div className="wrap-menu-desktop">
                         <nav className="limiter-menu-desktop container">
 
-                            <a href="#" className="logo">
+                            <a href="/" className="logo">
                                 <img src="../asset/images/icons/logo-01.png" alt="IMG-LOGO" />
                             </a>
 
                             <div className="menu-desktop">
                                 <ul className="main-menu">
                                     <li className="active-menu">
-                                        <a href="index.html">Home</a>
+                                        <Link to="/">Home</Link>
                                         <ul className="sub-menu">
-                                            <li><a href="/">Homepage 1</a></li>
-                                            <li><a href="homepage2">Homepage 2</a></li>
-                                            <li><a href="homepage3">Homepage 3</a></li>
+                                            <li><Link to="/">Homepage 1</Link></li>
+                                            <li><Link to="/">Homepage 2</Link></li>
+                                            <li><Link to="/">Homepage 3</Link></li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="product.html">Shop</a>
+                                        <Link to="/shop">Shop</Link>
                                     </li>
 
                                     <li className="label1" data-label1="hot">
-                                        <a href="shoping-cart.html">Features</a>
+                                        <Link to="/features">Features</Link>
                                     </li>
 
                                     <li>
-                                        <a href="blog.html">Blog</a>
+                                        <Link to="/blog">Blog</Link>
                                     </li>
 
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <Link to="/about">About</Link>
                                     </li>
 
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <Link to="/contact">Contact</Link>
                                     </li>
                                 </ul>
                                 
@@ -83,7 +59,7 @@ export default function Header() {
                                     <i className="zmdi zmdi-shopping-cart"></i>
                                 </div>
 
-                                <a href="#" className="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+                                <a href="/" className="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
                                     <i className="zmdi zmdi-favorite-outline"></i>
                                 </a>
                             </div>
@@ -105,7 +81,7 @@ export default function Header() {
                             <i className="zmdi zmdi-shopping-cart"></i>
                         </div>
 
-                        <a href="#" className="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+                        <a href="/" className="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
                             <i className="zmdi zmdi-favorite-outline"></i>
                         </a>
                     </div>
@@ -119,7 +95,7 @@ export default function Header() {
 
 
                 <div className="menu-mobile">
-                    <ul className="topbar-mobile">
+                    {/* <ul className="topbar-mobile">
                         <li>
                             <div className="left-top-bar">
                                 Free shipping for standard order over $100
@@ -128,32 +104,32 @@ export default function Header() {
 
                         <li>
                             <div className="right-top-bar flex-w h-full">
-                                <a href="#" className="flex-c-m p-lr-10 trans-04">
+                                <a href="/" className="flex-c-m p-lr-10 trans-04">
                                     Help & FAQs
                                 </a>
 
-                                <a href="#" className="flex-c-m p-lr-10 trans-04">
+                                <a href="/" className="flex-c-m p-lr-10 trans-04">
                                     My Account
                                 </a>
 
-                                <a href="#" className="flex-c-m p-lr-10 trans-04">
+                                <a href="/" className="flex-c-m p-lr-10 trans-04">
                                     EN
                                 </a>
 
-                                <a href="#" className="flex-c-m p-lr-10 trans-04">
+                                <a href="/" className="flex-c-m p-lr-10 trans-04">
                                     USD
                                 </a>
                             </div>
                         </li>
-                    </ul>
+                    </ul> */}
 
                     <ul className="main-menu-m">
                         <li>
-                            <a href="index.html">Home</a>
+                            <Link to="/">Home</Link>
                             <ul className="sub-menu-m">
-                                <li><a href="index.html">Homepage 1</a></li>
-                                <li><a href="home-02.html">Homepage 2</a></li>
-                                <li><a href="home-03.html">Homepage 3</a></li>
+                                <li><Link to="/">Homepage 1</Link></li>
+                                <li><Link to="/">Homepage 2</Link></li>
+                                <li><Link to="/">Homepage 3</Link></li>
                             </ul>
                             <span className="arrow-main-menu-m">
                                 <i className="fa fa-angle-right" aria-hidden="true"></i>
@@ -161,26 +137,27 @@ export default function Header() {
                         </li>
 
                         <li>
-                            <a href="product.html">Shop</a>
+                            <Link to="/product">Shop</Link>
                         </li>
 
                         <li>
-                            <a href="shoping-cart.html" className="label1 rs1" data-label1="hot">Features</a>
+                            <Link to="/features" className="label1 rs1">Features</Link>
                         </li>
 
                         <li>
-                            <a href="blog.html">Blog</a>
+                            <Link to="/blog">Blog</Link>
                         </li>
 
                         <li>
-                            <a href="about.html">About</a>
+                            <Link to="/about">About</Link>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
+                
 
                 <div className="modal-search-header flex-c-m trans-04 js-hide-modal-search">
                     <div className="container-search-header">
