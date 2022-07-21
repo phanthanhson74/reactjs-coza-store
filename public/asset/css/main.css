@@ -2064,7 +2064,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .block2-txt-child2 {
-  width: 30px;
+  /* width: 30px; */
 }
 
 .btn-addwish-b2 .icon-heart2 {
@@ -2086,6 +2086,15 @@ input.num-product::-webkit-inner-spin-button {
 .js-addedwish-b2 .icon-heart1 {
   opacity: 0;
 }
+
+
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+}
+.img-hover-zoom--colorize img:hover {
+  transform: scale(1.1);
+}
+
 
 /*---------------------------------------------*/
 .label-new {

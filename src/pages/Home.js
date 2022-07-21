@@ -12,7 +12,6 @@ function Home() {
         <Sliders />
         <Banner />
         <Productview />
-        <Footer />
     </div>
   )
 }
